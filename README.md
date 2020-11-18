@@ -4,8 +4,11 @@ Convert it to plain text by clicking Format > Make Plain Text
 Add your commands, one per line. For example, you could do:
 #! /bin/bash
 cd ~/Desktop
-mkdir myCoolFolder
-cd myCoolFolder
+git clone https://github.com/Strip3s/PhoenixBot/ 
+2. cd PhoenixBot 
+3. python3 -m venv ./env 
+4. source env/bin/activate 
+5. pip3 install -r requirements.txt
 
 Run chmod u+x ~/Desktop/myCommandScript.command in your terminal, where ~/Desktop/myCommandScript.command is the path to your script. This will give the terminal permission to run the file.
 
